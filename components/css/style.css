@@ -9,10 +9,15 @@
 body{
     background:#f9f8fd;
 }
-li{
+.brand{
+    margin-top: .5rem;
     text-decoration: none;
+    align-items: center;
+    text-align: center;
     list-style: none;
     margin-left: 10px;
+	font-size: 30px;
+    font-weight: 700;
     color:#1B2430;
 
 }
@@ -40,7 +45,7 @@ nav ul{
     justify-content: center;
     text-align: center;
 }
-h1{
+.primary-title{
     margin-top: 80px;
     text-align: center;
     color: #0076ec;
@@ -48,7 +53,7 @@ h1{
     font-weight: 1000;
     font-family: 'Poppins', sans-serif;
 }
-p{
+.primary-subtitle{
     margin-top: 1rem;
     text-align: center;
     color: hsl(210, 85%, 10%);
@@ -66,7 +71,7 @@ p{
     font-size: 20px;
     font-weight: 520;
     width: 200px;
-    background: #007fff;
+    background: #0ea5e9;
     border:none;
     cursor: pointer;
 }
@@ -115,18 +120,3 @@ p{
     color: #ffffff;
     cursor: pointer;
 }
-
-
-
-
-
-.logo{
-    height: 300px;
-    opacity: 40%;
-}
-
-
-.components{
-    display: grid;
-    grid-template-columns: 20% 80%;
-} 
